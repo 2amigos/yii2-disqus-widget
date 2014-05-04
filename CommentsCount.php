@@ -7,7 +7,7 @@
 namespace dosamigos\disqus;
 
 /**
- * \dosamigos\disqus\DisqusCommentsCount widget renders the javascript configuration view for Disqus Comment Count
+ * \dosamigos\disqus\CommentsCount widget renders the javascript configuration view for Disqus Comment Count
  *
  * @see http://help.disqus.com/customer/portal/articles/565624-tightening-your-disqus-integration
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
@@ -15,7 +15,7 @@ namespace dosamigos\disqus;
  * @link http://www.2amigos.us/
  * @package dosamigos\disqus
  */
-class DisqusCommentsCount extends Widget
+class CommentsCount extends Widget
 {
     /**
      * @inheritdoc

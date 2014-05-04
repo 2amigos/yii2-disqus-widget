@@ -26,9 +26,9 @@ Usage
 To display DISQUS comments
 
 ```php
-use dosamigos\disqus\DisqusComments;
+use dosamigos\disqus\Comments;
 
-echo DisqusComments::widget([
+echo Comments::widget([
     // see http://help.disqus.com/customer/portal/articles/472098-javascript-configuration-variables
     'shortname' => '{yourforumshortname}',
     'identifier' => 'article_identifier'
@@ -49,7 +49,7 @@ However, the count can also be looked up using a Disqus identifier:
 <a href="http://example.com/#disqus_thread" data-disqus-identifier="article_identifier">article</a>
 ```
 
-Then is just a matter to render the DisqusCommentsCount widget:
+Then is just a matter to render the CommentsCount widget:
 
 ```php
 DisqusCommentsCount::widget([

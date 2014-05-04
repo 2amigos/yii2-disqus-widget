@@ -8,14 +8,14 @@ namespace dosamigos\disqus;
 
 
 /**
- * \dosamigos\disqus\DisqusComments widget renders the javascript configuration view for Disqus comments
+ * \dosamigos\disqus\Comments widget renders the javascript configuration view for Disqus comments
  *
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
  * @package dosamigos\disqus
  */
-class DisqusComments extends Widget
+class Comments extends Widget
 {
 
     /**
