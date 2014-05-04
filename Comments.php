@@ -17,7 +17,6 @@ namespace dosamigos\disqus;
  */
 class Comments extends Widget
 {
-
     /**
      * @var string text for Disqus credits. Modify it on your app if you require i18n.
      */

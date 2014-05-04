@@ -80,7 +80,6 @@ class Widget extends \yii\base\Widget
      */
     public function run()
     {
-
         echo $this->render($this->view, $this->params);
     }
 
@@ -96,8 +95,7 @@ class Widget extends \yii\base\Widget
 
             if (!$property->isStatic()) {
                 $name = $property->getName();
-                if(!empty($this->{$name}))
-                {
+                if (!empty($this->{$name})) {
                     $vars[] = 'var disqus_' . Inflector::underscore($name) . '=' .
                         ($name == 'disableMobile' ? $this->{$name} : '"' . $this->{$name} . '"') . ';';
                 }
