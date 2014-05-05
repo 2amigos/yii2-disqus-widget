@@ -18,6 +18,11 @@ namespace dosamigos\disqus;
 class Comments extends Widget
 {
     /**
+     * @var string the language to dynamically load the Disqus embed in different language.
+     * @see http://help.disqus.com/customer/portal/articles/466249-multi-lingual-websites
+     */
+    public $language;
+    /**
      * @var string text for Disqus credits. Modify it on your app if you require i18n.
      */
     public $credits = '<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>';
@@ -36,5 +41,8 @@ class Comments extends Widget
         $this->params['credits'] = $this->credits;
         $this->params['noScript'] = $this->noScript;
         parent::init();
+        if (!empty($this->language)) {
+            $this->params['variables'] .= "\n\tvar disqus_config = function(){\n\t\tthis.language = '{$this->language}';\n\t};";
+        }
     }
 } 
