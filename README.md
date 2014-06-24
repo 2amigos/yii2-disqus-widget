@@ -1,6 +1,8 @@
 DISQUS Widget for Yii2
 ======================
 
+[![Latest Stable Version](https://poser.pugx.org/2amigos/yii2-disqus-widget/v/stable.svg)](https://packagist.org/packages/2amigos/yii2-disqus-widget) [![Total Downloads](https://poser.pugx.org/2amigos/yii2-disqus-widget/downloads.svg)](https://packagist.org/packages/2amigos/yii2-disqus-widget) [![Latest Unstable Version](https://poser.pugx.org/2amigos/yii2-disqus-widget/v/unstable.svg)](https://packagist.org/packages/2amigos/yii2-disqus-widget) [![License](https://poser.pugx.org/2amigos/yii2-disqus-widget/license.svg)](https://packagist.org/packages/2amigos/yii2-disqus-widget)
+
 DISQUS widget helps you to render your DISQUS comments thread or DISQUS comments thread count on your Yii2 applications.
 
 Installation
