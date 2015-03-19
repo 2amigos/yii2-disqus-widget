@@ -33,7 +33,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dosamigos\\disqus\\": ""
+            "dosamigos\\disqus\\": "src"
         }
     },
     "extra": {
