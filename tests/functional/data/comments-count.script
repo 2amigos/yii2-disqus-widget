@@ -1,14 +1,6 @@
-<?php
-/**
- * @copyright Copyright (c) 2014 2amigOS! Consulting Group LLC
- * @link http://2amigos.us
- * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
- */
-?>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
-    <?=$variables?>
-
+    var disqus_shortname="test-shortname";
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function () {
         var s = document.createElement('script'); s.async = true;

@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright Copyright (c) 2014 2amigOS! Consulting Group LLC
+ * @copyright Copyright (c) 2013-15 2amigOS! Consulting Group LLC
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
@@ -45,4 +45,4 @@ class Comments extends Widget
             $this->params['variables'] .= "\n\tvar disqus_config = function(){\n\t\tthis.language = '{$this->language}';\n\t};";
         }
     }
-} 
+}

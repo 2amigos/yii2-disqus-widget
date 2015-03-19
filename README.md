@@ -1,6 +1,13 @@
 DISQUS Widget for Yii2
 ======================
 
+[![Latest Version](https://img.shields.io/github/tag/2amigos/yii2-disqus-widget.svg?style=flat-square&label=release)](https://github.com/2amigos/yii2-disqus-widget/tags)
+[![Software License](https://img.shields.io/badge/license-BSD-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Build Status](https://img.shields.io/travis/2amigos/yii2-disqus-widget/master.svg?style=flat-square)](https://travis-ci.org/2amigos/yii2-disqus-widget)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/2amigos/yii2-disqus-widget.svg?style=flat-square)](https://scrutinizer-ci.com/g/2amigos/yii2-disqus-widget/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/2amigos/yii2-disqus-widget.svg?style=flat-square)](https://scrutinizer-ci.com/g/2amigos/yii2-disqus-widget)
+[![Total Downloads](https://img.shields.io/packagist/dt/2amigos/yii2-disqus-widget.svg?style=flat-square)](https://packagist.org/packages/2amigos/yii2-disqus-widget)
+
 DISQUS widget helps you to render your DISQUS comments thread or DISQUS comments thread count on your Yii2 applications.
 
 Installation
@@ -10,12 +17,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require "2amigos/yii2-disqus-widget" "*"
+composer require 2amigos/yii2-disqus-widget:~1.0
 ```
 or add
 
 ```json
-"2amigos/yii2-disqus-widget" : "*"
+"2amigos/yii2-disqus-widget" : "~1.0"
 ```
 
 to the require section of your application's `composer.json` file.
@@ -63,6 +70,21 @@ Further Information
 Please, check the [DISQUS developers](http://help.disqus.com/customer/portal/topics/107054-developers/articles)
 documentation for further information about its integration and configuration options.
 
+Contributing
+------------
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+Credits
+-------
+
+- [Antonio Ramirez](https://github.com/tonydspaniard)
+- [All Contributors](../../contributors)
+
+License
+-------
+
+The BSD License (BSD). Please see [License File](LICENSE.md) for more information.
 
 > [![2amigOS!](http://www.gravatar.com/avatar/55363394d72945ff7ed312556ec041e0.png)](http://www.2amigos.us)  
 <i>Web development has never been so fun!</i>  
