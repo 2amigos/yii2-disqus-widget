@@ -59,7 +59,9 @@ However, the count can also be looked up using a Disqus identifier:
 Then is just a matter to render the CommentsCount widget:
 
 ```php
-DisqusCommentsCount::widget([
+use dosamigos\disqus\CommentsCount;
+
+CommentsCount::widget([
     'shortname' => '{yourforumshortname}',
     'identifier' => 'article_identifier'
 ]);
